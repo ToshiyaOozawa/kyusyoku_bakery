@@ -193,7 +193,7 @@ header i {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
 }
 
 .hero-text h2 {
@@ -948,7 +948,7 @@ footer small {
   }
 
   .map img {
-    width: 300px;
+    width: 100%;
   }
 
   .map-inf {
