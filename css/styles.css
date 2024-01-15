@@ -578,6 +578,7 @@ header i {
 }
 
 .shop-address {
+  width: 100%;
   color: #fff;
   margin: 8px 0 0;
   text-align: center;
@@ -949,6 +950,7 @@ footer small {
 
   .map img {
     width: 100%;
+    object-fit: cover;
   }
 
   .map-inf {
