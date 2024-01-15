@@ -584,6 +584,11 @@ header i {
   text-align: center;
 }
 
+.map img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .map-inf {
   margin: 8px 0 0;
   font-size: 20px;
@@ -948,7 +953,7 @@ footer small {
     order: 1;
   }
 
-  .map img {
+  .map > img {
     width: 100%;
     object-fit: cover;
   }
