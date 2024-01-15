@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+  <title>給食パン屋</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header name="top">
+    <!-- sp版header -->
+    <h1 class="sp-h1">
+      <img src="https://user-images.githubusercontent.com/102784267/233265168-75b36584-b5ad-424e-98ad-c0c5c806c8a9.png" width="312">
+      <i class="bi bi-three-dots-vertical" id="nav-open"></i>
+    </h1>
+    <nav class="sp-menu">
+      <ul class="nav-lists">
+        <li><i class="bi bi-x-lg" id="nav-close"></i></li>
+        <li><a href="#menu-title">商品紹介</a></li>
+        <li><a href="#announce-title">お知らせ</a></li>
+        <li><a href="#shop-inf-title">店舗情報</a></li>
+        <li><a href="#contact-title">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <!-- pc版header -->
+    <h1 class="pc-h1">
+      <div>
+        <img src="https://user-images.githubusercontent.com/102784267/233595849-164e020b-f346-41bb-b74b-cd86db1266b4.png" width="177">
+      </div>
+    </h1>
+  </header>
+
+  <!-- TOPへ戻る -->
+  <a href="#top"><i class="bi bi-caret-up-square return-top"></i></a>
+  
+
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="bg-img-01"></div>
+      <div class="bg-img-02"></div>
+      <div class="bg-img-03"></div>
+      <div class="hero-text">
+        <h2  class="target">懐かしい思い出の味を<br>いつも身近に・・・</h2>
+        <p>子供のころ、学校で一番楽しみな時間は<span class="target">”給食”</span>でした。<br>給食に出てくるふわふわのコッペパンの香り、<br>かぶりついた時、口の中に広がる味と、<br>あふれるみんなの笑顔。<br>大人になってもそんな気持ちをもう一度、<br>もっと身近に味わってもらいたい・・・<br>そんな気持ちのいっぱい詰まった<span class="target">おいしいパン</span>を<br>たくさん用意してお待ちしています。</p>
+      </div>
+    </div>
+
+    <div class="hero-text-pc">
+      <h2  class="target">懐かしい思い出の味を<br>いつも身近に・・・</h2>
+      <p>子供のころ、学校で一番楽しみな時間は<span class="target">”給食”</span>でした。<br>給食に出てくるふわふわのコッペパンの香り、<br>かぶりついた時、口の中に広がる味と、<br>あふれるみんなの笑顔。<br>大人になってもそんな気持ちをもう一度、<br>もっと身近に味わってもらいたい・・・<br>そんな気持ちのいっぱい詰まった<span class="target">おいしいパン</span>を<br>たくさん用意してお待ちしています。</p>
+    </div>
+    
+
+    <section class="hero-carousel">
+      <div class="slider">
+        <ul>
+          <li>
+            <img src="https://user-images.githubusercontent.com/102784267/233598932-7d1d7024-bc90-43c7-8e72-689096d0a4c6.png" width="400" alt="パンの生地">
+          </li>
+          <li>
+            <img src="https://user-images.githubusercontent.com/102784267/233598811-61025a54-411a-4ce1-b0bb-a07adcb228da.png" width="400" alt="パンの画像">
+          </li>
+          <li>
+            <img src="https://user-images.githubusercontent.com/102784267/233598576-7e0246e9-3287-419a-b3aa-f0ad3465ae4d.png" width="400" alt="パンの画像">
+          </li>
+          <li>
+            <img src="https://user-images.githubusercontent.com/102784267/233598726-0516e701-8fdb-46bd-8194-4e6b90ffabce.png" width="400" alt="パンの画像">
+          </li>
+        </ul>
+        <button id="prev">&laquo;</button>
+        <button id="next">&raquo;</button>
+      </div>
+      <nav class="carousel-nav">
+        
+      </nav>
+    </section>
+  </section>
+
+  <section class="menu"  id="menu-title">
+    <h2>MENU</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://user-images.githubusercontent.com/102784267/233601083-5b2e3ea7-4594-437b-9b41-787fe7e4a138.png" width="200" alt="商品コッペパンの画像"> 
+        <h3>コッペパン</h3>
+        <p>(税込180円)</p>
+        <p class="menu-text">給食のパンの定番といえばコレ！<br>やさしい甘さが特徴のふわふわのコッペパン。<br>そのままでも美味しくいただけますが、ハムや野菜を挟んだサンドイッチ風、定番のジャム＆マーガリンなど、可能性は無限大、当店のイチオシ！<br>当店自慢のジャムとも相性抜群、ぜひご一緒にどうぞ。</p>
+        <p class="no-1">オススメ！</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://user-images.githubusercontent.com/102784267/233601091-95134e25-1c2f-4310-a3e2-22b2de8a2311.png" width="200" alt="商品ツイストパンの画像">
+        <h3>ツイストパン</h3>
+        <p>(税込170円)</p>
+        <p class="menu-text">モチモチっとした触感がたまらない、ツイストパン。<br>オーブントースターなどで1分ほど温めてから、お召し上がりいただくのがオススメ。温めることで、卵とバターの風味が増して美味しさUP！<br>いつの間にかあなたもモチモチの虜に・・・</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://user-images.githubusercontent.com/102784267/233601076-1d532f0e-b089-48f6-a4f9-6f0a8838736e.png" width="200" alt="商品まるパンの画像">
+        <h3>まるパン</h3>
+        <p>(税込160円)</p>
+        <p class="menu-text">あっさりとした素朴な味わいのまるパンくん。<br>シンプルだからこそ、どんなシーンにもマッチするまるで名バイプレーヤー！<br>軽い朝食、お昼のお供、ミネストローネなどスープとの相性も抜群。<br>小腹がすいた時やお夜食にも、気が付けばいつもそこに、キミがいる。</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4236/ebaeab0cdf378b372171a1fc69504f49a8b9ca36.png"  width="90" alt="マーマレードジャムの画像">
+        <h3>マーマレードジャム</h3>
+        <p>(税込540円)</p>
+        <p class="menu-text">当店特性のマーマレードジャムです。皮の苦みをマイルドに仕上げ、爽やかなオレンジの香りと、フレッシュさが特徴です。</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4238/5dfec969928f0bb7955eef65ff4242277deb26f0.png" width="90" alt="苺ジャムの画像">
+        <h3>苺ジャム</h3>
+        <p>(税込540円)</p>
+        <p class="menu-text">当店特性の苺ジャムです。苺の酸味と甘みのバランスが絶妙な逸品。</p>
+        <p class="no-1">オススメ！</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4239/86e52803443e67bdc9563f0f5ce68584a0afe1e4.png"" width="90" alt="ブルーベリージャムの画像">
+        <h3>ブルーベリージャム</h3>
+        <p>(税込540円)</p>
+        <p class="menu-text">当店特性のブルーベリージャムです。パンだけでなくヨーグルトなどとも相性抜群です。</p>
+    </div>
+  </section>
+  
+  <section class="announce" id="announce-title">
+    <h2 class="target">おしらせ</h2>
+    <dl>
+      <time datetime="20XX-XX-○○">20XX.XX.○○</time>
+      <div>
+        <dt>給食ぱん屋グランドオープン！<i class="bi bi-arrow-bar-down"></i></dt>
+        <dd>給食ぱん屋！<span>20XX年XX月○○日10時～</span>、ついにオープンします。皆さんのご来店をお待ちしています！</dd>
+      </div>
+    </dl>
+    <dl>
+      <time datetime="20XX-XX-○○">20XX.XX.○○</time>
+      <div>
+        <dt>オープニングセール開催！<i class="bi bi-arrow-bar-down"></i></dt>
+        <dd>給食ぱん屋のオープンを記念して、オープンから3日間、自慢の特性製ジャム各種が<span>先着10名様10％OFF</span>になるお得なセールを開催です。この機会にぜひ一度味わってみてくださいね。</dd>
+      </div>
+    </dl>
+    <dl>
+      <time datetime="20XX-XX-○○">20XX.XX.○○</time>
+      <div>
+        <dt>お得なスタンプカード！<i class="bi bi-arrow-bar-down"></i></dt>
+        <dd>お買い上げいただいたお客様に、当店のスタンプカードをお渡ししています。お会計￥500円（税抜）ごとにスタンプ1つ。<span>スタンプ10個でお好きなパン1つ</span>と交換出来ます。有効期限は1年となりますので、お気をつけください。</dd>
+      </div>
+    </dl>
+    <dl>
+      <p>COMMING SOON!</p>
+      <div>
+        <dt>新商品開発中！<i class="bi bi-arrow-bar-down"></i></dt>
+        <dd>まもなく完成予定！商品の詳細や発売時期は<span>SNSで配信予定</span>。ぜひ登録してお店の情報も受け取ってくださいね！</dd>
+      </div>
+    </dl>
+    <a href="#">BACK NUMBER<i class="bi bi-arrow-right-square"></i></a>
+  </section>
+  
+  <section class="shop-inf" id="shop-inf-title">
+    <div class="owner">
+      <div class="owner-img target">
+        <img src="https://user-images.githubusercontent.com/102784267/233591841-7b591892-74c9-446a-9dfb-b1235a53f027.png" width="140"  title="オーナー：米本朝陽">
+      </div>
+      <div class="owner-plof">
+        <p>オーナー<br>米本 朝陽（こめもと あさひ）</p>
+        <p>プロフィール<br><span>大学卒業後、小学校の教師として教鞭をとる傍ら、長年休日を利用して趣味で大好きな給食のパンを試作するように。生徒や親御さん同僚に好評を得たことをきっかけに一念発起、パン屋の開業を決意！さらに技術を磨き、20XX年XX月、東京都二五六区に”給食ぱん屋”をオープン。</span></p>
+      </div>
+    </div>
+    <div class="shop-address">
+      <div class="map">
+        <img src="https://user-images.githubusercontent.com/102784267/233602750-0cca26c8-997f-4b4b-bd9a-04cd8f22dba5.png" width="400" title="店舗MAP">
+      </div>
+      <div class="map-inf">
+        <p title="店舗名：給食ぱん屋" class="shop-name">給食ぱん屋</p>
+        <small>（二五六駅西口より徒歩10分）<br>OPEN : 10:00 ～ CLOSE : 18:00<br>定休日 : 毎週水曜・木曜日</small>
+
+        <p>住所：東京都二五六区２－５－６</p>
+        <a href="tel:03-XXXX-XXXX">TEL：03-XXXX-XXXX</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container" id="contact-title">
+    <button id="form-open">お問い合わせ</button>
+    <div class="form-overlay">
+      <i class="bi bi-x-square" id="close-farm-overlay"></i>
+      <form class="form-list">
+        <label>
+          お名前(カナ) <small>必須</small>
+          <input type="text" placeholder="カナでご入力ください" id="name" required>
+        </label>
+        <label>
+          メールアドレス <small>必須</small>
+          <input type="email" placeholder="必ずご入力ください" id="mail" required>
+        </label>
+        <label>
+          電話番号 <small class="form-tel">任意</small>
+          <input type="tel" placeholder="入力は任意です" id="'tel">
+        </label>
+        <label>
+          お問い合わせ項目 <small>必須</small>
+          <select id="select-box">
+            <option value="">-- 選択してください --</option>
+            <option value="1">商品について</option>
+            <option value="2">店舗について</option>
+            <option value="3">その他</option>
+          </select>
+        </label>
+        <label>
+          お問い合わせ内容 <small>必須</small>
+          <textarea placeholder="お問い合わせ内容をご記入ください" id="area"></textarea>
+        </label>
+        <button id="check"  disabled>確認</button>
+      </form>
+    </div>
+    
+  </section>
+  
+  
+  <footer>
+    <a href="https://twitter.com/intent/tweet?url=[url]&text=[text]&hashtags=[hashtags]" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://www.facebook.com/sharer.php?u=[url]" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="http://line.me/R/msg/text/?{URL}%0a{}" target="_blank" rel="nofollow noopener"><i class="fa-brands fa-line"></i></a>
+    
+    <small>
+      (c) 256times.com
+    </small>
+  </footer>
+
+  <!-- JavaScriptの実装をする方は以下のタグを削除しないでください -->
+  <script src="https://kit.fontawesome.com/41b3287e04.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
