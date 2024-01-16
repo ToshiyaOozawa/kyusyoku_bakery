@@ -94,7 +94,7 @@ header i {
 .return-top {
   position: fixed;
   bottom: 32px;
-  right: 3%;
+  right: 4%;
   font-size: 48px;
   z-index: 5;
   color: #000;
@@ -366,9 +366,9 @@ header i {
   text-align: center;
   background: #fff;
   border-radius: 8px;
-  transform: rotate(-10deg);
-  transform-origin: top right;
-  transition: transform .6s;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform .6s, opacity .6s;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -382,6 +382,16 @@ header i {
 
 .menu-item.set {
   transform: none;
+  opacity: 1;
+}
+
+.menu-item img {
+  opacity: 0;
+  transition: opacity .6s .2s;
+}
+
+.menu-item.set img {
+  opacity: 1;
 }
 
 .no-1 {
@@ -897,17 +907,26 @@ footer small {
     flex: 1;
   }
 
+  .menu-item img {
+    opacity: 0;
+    transition: opacity .6s .2s;
+  }
+  
+  .menu-item.set img {
+    opacity: 1;
+  }
+
   .menu-item + .menu-item {
     margin-top: 0;
   }
 
-  /* .menu-item:nth-child(2) {
-  transition-delay: .2s;
+  .menu-item:nth-child(2) {
+  transition-delay: .1s;
   }
 
   .menu-item:nth-child(3) {
-    transition-delay: .4s;
-  } */
+    transition-delay: .2s;
+  }
 
   /* announce */
 
